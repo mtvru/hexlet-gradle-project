@@ -6,7 +6,7 @@ plugins {
     // id("com.diffplug.spotless") version "7.2.1"
 
     application
-    // jacoco
+    jacoco
     alias(libs.plugins.spotless)
     alias(libs.plugins.lombok)
     alias(libs.plugins.shadow)
